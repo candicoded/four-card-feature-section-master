@@ -28,6 +28,7 @@ body {
 
 main {
   width: 80%;
+  margin: 5em 0;
 }
 
 h1 {
@@ -39,19 +40,55 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
 p {
   color: var(--GrayishBlue);
   font-size: 0.9rem;
   margin-top: 1em;
+  margin-bottom: 4em;
 }
 
 .feature {
   text-align: left;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgb(226, 226, 226);
+  margin-bottom: 1em;
+  padding: 1em;
 }
 
 .feature-text {
   font-size: 0.8rem;
   color: var(--GrayishBlue);
+}
+
+.feature img {
+  margin-left: 12em;
+  margin-top: 2em;
+  width: 23%;
+}
+
+.feature:nth-child(1) {
+  border-top: 4px solid var(--Cyan);
+  border-radius: 5px;
+}
+
+.feature:nth-child(2) {
+  border-top: 4px solid var(--Red);
+  border-radius: 5px;
+}
+
+.feature:nth-child(3) {
+  border-top: 4px solid var(--Orange);
+  border-radius: 5px;
+}
+
+.feature:nth-child(4) {
+  border-top: 4px solid var(--Blue);
+  border-radius: 5px;
 }
 
 footer {
